@@ -84,3 +84,4 @@ The p-value is too low which means that we reject the null hypothesis. There is 
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+We began the assignment with doing a variable analysis which led to looking at the variables given in order to help identify what helper file was needed. After looking at the variables we needed the numerical~cat file which helped us with the problem. After analyzing the numerical~cat helper file we were able to past the commands after changing the variables within each command. After analyzing the results and data I concluded that I rejected the null hypothesis which means that there is a great difference between the amount of pushups that a skill player can do comepared to a line player.
