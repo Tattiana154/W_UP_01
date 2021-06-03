@@ -65,8 +65,6 @@ The boxplot shows that the skill players can do more push-ups than the line play
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
-# Numerical results
-
 ```{r}
 favstats(pushups~position,data=mydata)
 ```
@@ -76,6 +74,11 @@ Variable results showed that the average number of pushups done by a line player
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(pushups~position,data=mydata)
+```
+
+The p-value is too low which means that we reject the null hypothesis. There is a difference when it comes to the amount of pushups that both the line and skill players could do. The skill players on average could do 3 times the amount of pushups compared to the line players. 
 
 # Discussion and Conclusion
 
